@@ -53,7 +53,10 @@
             </div>
 
     </div>
+    <script src="https://telegram.org/js/telegram-web-app.js"></script>
     <script>
+      let tg = window.Telegram.WebApp
+      
         function openPage(pageNum) {
           for (let i = 1; i <= 3; i++) {
             document.getElementById('page' + i).style.display = 'none';
