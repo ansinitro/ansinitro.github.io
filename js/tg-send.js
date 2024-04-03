@@ -9,6 +9,6 @@ function sendData() {
 var BackButton = tg.BackButton;
 BackButton.show();
 BackButton.onClick(function() {
-    WebApp.showAlert("BackButton clicked");
+    window.history.back();
     BackButton.hide();
 });
