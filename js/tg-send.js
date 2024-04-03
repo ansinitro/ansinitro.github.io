@@ -6,7 +6,7 @@ function sendData() {
         data: modalData
     }));
 }
-var BackButton = WebApp.BackButton;
+var BackButton = tg.BackButton;
 BackButton.show();
 BackButton.onClick(function() {
     WebApp.showAlert("BackButton clicked");
